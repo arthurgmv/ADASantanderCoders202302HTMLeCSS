@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    }
+.container {
+    margin: 0 90px;
+    padding: 0 90px;
+}
+
+main {
+    flex: 1; 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;  
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.ponto {
+    color: #FFC36A;
+    height: 232px;
+    width: 50px;
+}
+
+.logo-name {
+    color: #111827;
+    width: 135.83px;
+    height: 21.82px;
+}
+
+.hamburger {
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+    gap: 8px;
+    position: fixed;
+  }
+  
+  .bar {
+    width: 28px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+  }
+  
+  .bar01 {
+    width: 15px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+  }  
+
+  .big-card {
+    width: 1,100px;
+    height: 632px;
+    padding: 20px 130px 38px 130px;
+    border-radius: 44px;
+    gap: 8px;
+    background: linear-gradient(99.03deg, #FBED96 -1%, #ABECD6 92.31%);
+    box-shadow: 0px 23px 30px 0px #ABECD633, 0px 4px 12px 0px #0000001A; 
+    align-items: center;
+    justify-content: center;
+    padding-top: 38px;
+    }
+  
+  .avatar {
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;   
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+  }
+  
+  .avatar > img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .Olá {
+    font-family: Nunito;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.06em;
+    text-align: center;
+  }
+
+  .big-card > p {
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .botões {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .botão-contato {
+    background: #111827;
+    color: #fff;
+  }
+
+  .botão-download {
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  .main > h1 {
+    font-family: Poppins;
+    font-size: 92px;
+    font-weight: 500;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .e-commerce {
+    width: 353px;
+    height: 450px;
+    gap: 20px;
+
+  }
+
+  .e-commerce p {
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+
+  .trybe-course {
+    width: 353px;
+    height: 450px;
+    gap: 20px;
+
+  }
+
+  .trybe-course p {
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+
+  .trybetunes {
+    width: 353px;
+    height: 450px;
+    gap: 20px;
+
+  }
+
+  .trybetunes p {
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .trabalhos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: poppins;
+  }
+  
+  
+  .React {
+    width: 79px;
+    height: 32px;
+    padding: 8px, 16px;
+    border-radius: 32px;
+    gap: 8px;
+    background-color: #38BDF8;
+    color: #fff;
+    border: none;
+    font-family: poppins;
+  }
+
+  .React-Native {
+    width: 132px;
+    height: 32px;
+    padding: 8px, 16px;
+    border-radius: 32px;
+    gap: 8px;
+    background-color: #38BDF8;
+    color: #fff;
+    border: none;
+  }
+
+  .Rest-API {
+    width: 95px;
+    height: 32px;
+    padding: 8px, 16px;
+    border-radius: 32px;
+    gap: 8px;
+    border: none;
+    background-color: #F43F5E;
+    color: #fff;
+
+  }
+
+  .Redux {
+    width: 95px;
+    height: 32px;
+    padding: 8px, 16px;
+    border-radius: 32px;
+    gap: 8px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+  }
+
+  .CSS {
+    width: 64px;
+    height: 32px;
+    padding: 8px, 16px;
+    border-radius: 32px;
+    gap: 8px;
+    border: none;
+    background-color: #34D399;
+    color: #fff;
+  }
+
+  .JS {
+    width: 50px;
+    height: 32px;
+    border-radius: 32px;
+    padding: 8px, 16px;
+    gap: 8px;
+    border: none;
+    background-color: #F59E0B;
+    color: #fff;
+  }
+
+  .trabalhos > img {
+    margin-top: 20px;
+    margin-bottom: 23px;
+  }
+
+  .e-commerce > img {
+    border-top: solid 34.29px #E23839;
+    border-bottom: solid 23px #E23839;
+    border-radius: 18px;
+    background-color: #E23839;
+  }
+
+  .trybe-course > img {
+    border-top: solid 34.29px #022516;
+    border-bottom: solid 23px #022516;
+    border-radius: 18px;
+    background-color: #022516;
+  }
+
+  .trybetunes > img {
+    border-top: solid 34.29px #ED7854;
+    border-bottom: solid 23px #ED7854;
+    border-radius: 18px;
+    background-color: #ED7854;
+  }
+
+  .tech-labels {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  
+  .tech-labels button {
+    margin: 0; 
+  }
+
+  .icon-button {
+    border: none;
+    appearance: none;
+    color: #111827;
+    font-family: poppins;
+    background-color: transparent;
+    padding: 20px 0;
+    
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+
+  .about-me h1 {
+    font-family: Poppins;
+    font-size: 92px;
+    font-weight: 500;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: #111827;
+}
+
+.sobre {
+    border-left:  solid 5px #111827;
+    padding-left: 20px;
+    width: 498px;
+    height: 198px;
+}
+
+.sobre > p {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.74px;
+}
+
+.skills {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 46.8px;
+    color: #111827;
+}
+
+.as-skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    margin-top: 20px;
+}
+
+.as-skills span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.as-skills p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 28px; 
+    line-height: 32px; 
+    color: #111827;
+    margin-top: 10px; 
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.avatar02 {
+    display: flex;
+    align-items: center;
+    margin-top: -350px;
+    margin-left: 170px;
+}
+
+.avatar02 img {
+    height: 550px;
+}
+
+#footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px, 24px, 28px, 24px;
+}
+
+footer {
+    width: 100%;
+    height: 654px;
+    border-top-right-radius: 48px;
+    border-top-left-radius: 48px;
+    padding: 80px 24px 28px 24px;
+    background-color: #111827;
+    color: white; 
+    text-align: center;
+}
+
+.alguma-ideia {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 92px;
+    line-height: 82px;
+}
+
+#footer-container .esquerda,
+#footer-container .direita {
+    height: 100%; 
+}
+
+#footer-container .esquerda {
+    text-align: left;
+    padding-left: 25px; 
+}
+
+#footer-container .direita {
+    text-align: right; 
+}
+
+#footer-container .direita img {
+    height: 550px;
+}
+
+.email {
+    font-size: 28px;
+    font-family: Poppins;
+    color: #fff;
+    border: 0 solid #fff; 
+    border-bottom-width: 2px;
+    display: inline;
+}
+
+.baixo {
+    padding-top: 25px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+
